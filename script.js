@@ -1,4 +1,4 @@
-const apiKey = "Sua_Chave_API"
+const apiKey = "SUA_CHAVE_API"
 
 const maxImages = 4; 
 let selectedImageNumber = null; 
