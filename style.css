@@ -133,10 +133,11 @@ button {
     cursor: pointer;
     border: 2px solid transparent;
     height: auto;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 #imagegrid img:hover{
     border-color: #675afe;
     filter: blur(0.5px);
+    transform: scale(1.04);
 }
