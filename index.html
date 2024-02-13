@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de imagens Ai</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1>Gerador de Imagens Ai</h1>
+        <p>Escreva aqui sua solicitação para gerar imagens com poder de Ai;<br>Por exemplo: 
+            ("Crie uma imagem de um passarinho em uma estrada sinuosa, cercada por arbustos e árvores,
+             com um céu azul e nuvens brancas. O passarinho deve estar centralizado na estrada, parecendo 
+             curioso e determinado, com asas ligeiramente abertas. Adicione detalhes sutis, como pegadas na estrada,
+              folhas caídas e insetos ao redor das flores próximas.")</p>
+   
+            <form class="gen-form">
+                <input type="text" id="user-prompt"  
+                placeholder="Digite seu comando aqui..." autocomplete="off">
+                <button type="button" id="generate">Gerar</button>
+            </form>
+            <div class="result">
+                <div id="loading">Gerando...</div>
+                <div id="imagegrid"></div>
+             </div> 
+     </div>
+
+     
+
+    <script src="script.js"></script>
+</body>
+</html>
